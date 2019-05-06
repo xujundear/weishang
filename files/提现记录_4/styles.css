@@ -13,7 +13,7 @@
   position:absolute;
   z-index:0;
 }
-#u924_img {
+#u1033_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -21,7 +21,7 @@
   width:375px;
   height:667px;
 }
-#u924 {
+#u1033 {
   border-width:0px;
   position:absolute;
   left:31px;
@@ -29,7 +29,7 @@
   width:375px;
   height:667px;
 }
-#u924_text {
+#u1033_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -38,7 +38,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u925_div {
+#u1034_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -53,7 +53,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u925 {
+#u1034 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -61,7 +61,7 @@
   width:1549px;
   height:96px;
 }
-#u925_text {
+#u1034_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -70,7 +70,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u926_div {
+#u1035_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -90,7 +90,7 @@
   font-size:48px;
   color:#FFFFFF;
 }
-#u926 {
+#u1035 {
   border-width:0px;
   position:absolute;
   left:38px;
@@ -103,7 +103,7 @@
   font-size:48px;
   color:#FFFFFF;
 }
-#u926_text {
+#u1035_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -111,7 +111,7 @@
   width:193px;
   white-space:nowrap;
 }
-#u927_div {
+#u1036_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -129,7 +129,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u927 {
+#u1036 {
   border-width:0px;
   position:absolute;
   left:351px;
@@ -137,7 +137,7 @@
   width:20px;
   height:20px;
 }
-#u927_text {
+#u1036_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -146,7 +146,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u928_img {
+#u1037_img {
   border-width:0px;
   position:absolute;
   left:-1px;
@@ -154,7 +154,7 @@
   width:86px;
   height:5px;
 }
-#u928 {
+#u1037 {
   border-width:0px;
   position:absolute;
   left:364px;
@@ -162,7 +162,7 @@
   width:83px;
   height:2px;
 }
-#u928_text {
+#u1037_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -171,7 +171,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u929_div {
+#u1038_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -191,7 +191,7 @@
   font-size:20px;
   color:#009DDA;
 }
-#u929 {
+#u1038 {
   border-width:0px;
   position:absolute;
   left:457px;
@@ -204,7 +204,7 @@
   font-size:20px;
   color:#009DDA;
 }
-#u929_text {
+#u1038_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -212,7 +212,7 @@
   width:221px;
   white-space:nowrap;
 }
-#u930_img {
+#u1039_img {
   border-width:0px;
   position:absolute;
   left:-1px;
@@ -220,7 +220,7 @@
   width:392px;
   height:5px;
 }
-#u930 {
+#u1039 {
   border-width:0px;
   position:absolute;
   left:58px;
@@ -228,7 +228,7 @@
   width:389px;
   height:2px;
 }
-#u930_text {
+#u1039_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -237,7 +237,7 @@
   visibility:hidden;
   word-wrap:break-word;
 }
-#u931_div {
+#u1040_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -257,7 +257,7 @@
   font-size:20px;
   color:#009DDA;
 }
-#u931 {
+#u1040 {
   border-width:0px;
   position:absolute;
   left:457px;
@@ -270,7 +270,7 @@
   font-size:20px;
   color:#009DDA;
 }
-#u931_text {
+#u1040_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -278,7 +278,7 @@
   width:141px;
   white-space:nowrap;
 }
-#u932_div {
+#u1041_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -296,7 +296,7 @@
   -webkit-box-shadow:none;
   box-shadow:none;
 }
-#u932 {
+#u1041 {
   border-width:0px;
   position:absolute;
   left:48px;
@@ -304,7 +304,7 @@
   width:20px;
   height:20px;
 }
-#u932_text {
+#u1041_text {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -312,4 +312,14 @@
   width:0px;
   visibility:hidden;
   word-wrap:break-word;
+}
+#u1042 {
+  border-width:0px;
+  position:absolute;
+  left:31px;
+  top:141px;
+  width:50px;
+  height:48px;
+  overflow:hidden;
+  background-image:url('../../resources/images/transparent.gif');
 }

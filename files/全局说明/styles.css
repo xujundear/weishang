@@ -91,8 +91,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:938px;
-  height:980px;
+  width:1472px;
+  height:1120px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
   border:none;
@@ -110,8 +110,8 @@
   position:absolute;
   left:38px;
   top:127px;
-  width:938px;
-  height:980px;
+  width:1472px;
+  height:1120px;
   font-family:'PingFangSC-Regular', 'PingFang SC';
   font-weight:400;
   font-style:normal;
@@ -122,6 +122,6 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:938px;
+  width:1472px;
   white-space:nowrap;
 }
