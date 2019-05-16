@@ -66,9 +66,19 @@
 }
 .box_1 {
 }
+.ellipse {
+}
+.image1 {
+  color:#000000;
+}
+.icon {
+}
 .box_2 {
 }
 .box_3 {
+}
+.paragraph {
+  text-align:left;
 }
 .line {
 }
@@ -99,4 +109,13 @@
 }
 ._提交按钮 {
   color:#000000;
+}
+.heading_1 {
+  font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';
+  font-weight:700;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.shape {
 }
