@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Untitled Document</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet" />
-    <link type="text/css" href="resources/css/default.css" rel="Stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link type="text/css" href="resources/css/reset.css" rel="Stylesheet">
+    <link type="text/css" href="resources/css/default.css" rel="Stylesheet">
     <!--<link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>-->
 
     <script type="text/javascript">
@@ -470,9 +470,9 @@
         }
     --></script>
     
-    <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css" />
-    <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
+    <link type="text/css" rel="Stylesheet" href="plugins/sitemap/styles/sitemap.css">
+    <link type="text/css" rel="Stylesheet" href="plugins/page_notes/styles/page_notes.css">
+    <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css">
     <script src="resources/scripts/startPost.js"></script>
 
 
@@ -480,14 +480,52 @@
     <script type="text/javascript" src="plugins/recordplay/recordplay.js"></script>-->
     
 
-</head>
+
+                    <script id="axure_preview">
+                        ;(function(){
+                            console.log('axure_preview init')
+                            if(location.hostname !== "127.0.0.1" && location.hostname !== "localhost"){
+                                return 
+                            }
+                            if(window.top !== window){
+                                return
+                            }
+                            if(window.history && history.replaceState){
+                                if(!location.hash){
+                                    history.replaceState(null,null,'#lh=1')
+                                    lh_preview()
+                                }else if(location.hash.indexOf('lh=') === -1){
+                                    history.replaceState(null,null,location.hash+'&lh=1')
+                                    lh_preview()
+                                }
+                            }
+
+                            function lh_preview(port,stamp){
+                                port = port || location.port
+                                stamp = stamp || 0
+                                location.href = location.href
+                                if(window.$ && $.get){
+                                    console.log("lh_preview")
+                                    $.get("http://localhost:32764/preview?port="+port)
+                                }else if(stamp<3000){
+                                    console.log("lh_preview setTimeout ",stamp)
+                                    setTimeout(function(){
+                                        lh_preview(port,stamp+300)
+                                    },300)
+                                }else{
+                                    console.log("lh_preview fail")
+                                }
+                            }
+                        })();
+                    </script>
+                </head>
 <body scroll="no" class="hashover">
     <div id="outerContainer">
 
         <div id="leftPanel">
             <div id="interfaceControlFrame">
                 <div id="interfaceControlFrameMinimizeContainer">
-                    <a title="Collapse" id="interfaceControlFrameMinimizeButton" onclick="collapse();">&nbsp;</a>
+                    <a title="Collapse" id="interfaceControlFrameMinimizeButton" onclick="collapse();">&#xA0;</a>
                 </div>
                 <div id="interfaceControlFrameHeaderContainer">
                     <ul id="interfaceControlFrameHeader"></ul>
@@ -506,7 +544,7 @@
             </div>
         </div>
         <div id="rightPanel">
-            <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="" frameborder="0" style="display: block;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <iframe id="mainFrame" name="mainFrame" width="100%" height="100%" src="" frameborder="0" style="display: block;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen></iframe>
         </div>
 
     </div>
